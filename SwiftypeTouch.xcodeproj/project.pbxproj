@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF14F05115CF8E53003F4779 /* STPageDocumentTypeResultsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FF14F05015CF8E53003F4779 /* STPageDocumentTypeResultsObject.m */; };
+		FF14F05615CFA1D1003F4779 /* STWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF14F05515CFA1D1003F4779 /* STWebViewController.m */; };
+		FF4357D615D02CF500B61C0D /* STSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4357D515D02CF500B61C0D /* STSearchBar.m */; };
+		FFBA488E15CCA0C300E71185 /* STPagingSearchResultsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBA488D15CCA0C300E71185 /* STPagingSearchResultsObject.m */; };
+		FFF65CE015CB485800F6EDB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF65CDF15CB485800F6EDB2 /* Foundation.framework */; };
+		FFF65CF815CB48A900F6EDB2 /* NSDate+STUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF65CEF15CB48A900F6EDB2 /* NSDate+STUtils.m */; };
+		FFF65CF915CB48A900F6EDB2 /* NSDictionary+STUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF65CF115CB48A900F6EDB2 /* NSDictionary+STUtils.m */; };
+		FFF65CFA15CB48A900F6EDB2 /* NSString+STUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF65CF315CB48A900F6EDB2 /* NSString+STUtils.m */; };
+		FFF65CFB15CB48A900F6EDB2 /* STAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF65CF515CB48A900F6EDB2 /* STAPIClient.m */; };
+		FFF65CFC15CB48A900F6EDB2 /* STSearchResultsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF65CF715CB48A900F6EDB2 /* STSearchResultsObject.m */; };
+		FFF65D1315CB4B1400F6EDB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF65D1215CB4B1400F6EDB2 /* UIKit.framework */; };
+		FFF65D1515CB4B1900F6EDB2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF65D1415CB4B1900F6EDB2 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FFF65CDA15CB485800F6EDB2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FF14F04F15CF8E53003F4779 /* STPageDocumentTypeResultsObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPageDocumentTypeResultsObject.h; sourceTree = "<group>"; };
+		FF14F05015CF8E53003F4779 /* STPageDocumentTypeResultsObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPageDocumentTypeResultsObject.m; sourceTree = "<group>"; };
+		FF14F05415CFA1D1003F4779 /* STWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STWebViewController.h; sourceTree = "<group>"; };
+		FF14F05515CFA1D1003F4779 /* STWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STWebViewController.m; sourceTree = "<group>"; };
+		FF4357D415D02CF500B61C0D /* STSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSearchBar.h; sourceTree = "<group>"; };
+		FF4357D515D02CF500B61C0D /* STSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSearchBar.m; sourceTree = "<group>"; };
+		FFBA488C15CCA0C300E71185 /* STPagingSearchResultsObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPagingSearchResultsObject.h; sourceTree = "<group>"; };
+		FFBA488D15CCA0C300E71185 /* STPagingSearchResultsObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPagingSearchResultsObject.m; sourceTree = "<group>"; };
+		FFF65CDC15CB485800F6EDB2 /* libSwiftypeTouch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwiftypeTouch.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF65CDF15CB485800F6EDB2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FFF65CE315CB485800F6EDB2 /* SwiftypeTouch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftypeTouch-Prefix.pch"; sourceTree = "<group>"; };
+		FFF65CEE15CB48A900F6EDB2 /* NSDate+STUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+STUtils.h"; sourceTree = "<group>"; };
+		FFF65CEF15CB48A900F6EDB2 /* NSDate+STUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+STUtils.m"; sourceTree = "<group>"; };
+		FFF65CF015CB48A900F6EDB2 /* NSDictionary+STUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+STUtils.h"; sourceTree = "<group>"; };
+		FFF65CF115CB48A900F6EDB2 /* NSDictionary+STUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+STUtils.m"; sourceTree = "<group>"; };
+		FFF65CF215CB48A900F6EDB2 /* NSString+STUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+STUtils.h"; sourceTree = "<group>"; };
+		FFF65CF315CB48A900F6EDB2 /* NSString+STUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+STUtils.m"; sourceTree = "<group>"; };
+		FFF65CF415CB48A900F6EDB2 /* STAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STAPIClient.h; sourceTree = "<group>"; };
+		FFF65CF515CB48A900F6EDB2 /* STAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STAPIClient.m; sourceTree = "<group>"; };
+		FFF65CF615CB48A900F6EDB2 /* STSearchResultsObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSearchResultsObject.h; sourceTree = "<group>"; };
+		FFF65CF715CB48A900F6EDB2 /* STSearchResultsObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSearchResultsObject.m; sourceTree = "<group>"; };
+		FFF65D1215CB4B1400F6EDB2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FFF65D1415CB4B1900F6EDB2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFF65CD915CB485800F6EDB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF65D1515CB4B1900F6EDB2 /* CoreGraphics.framework in Frameworks */,
+				FFF65D1315CB4B1400F6EDB2 /* UIKit.framework in Frameworks */,
+				FFF65CE015CB485800F6EDB2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF14F05315CFA1A3003F4779 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FF14F05415CFA1D1003F4779 /* STWebViewController.h */,
+				FF14F05515CFA1D1003F4779 /* STWebViewController.m */,
+				FF4357D415D02CF500B61C0D /* STSearchBar.h */,
+				FF4357D515D02CF500B61C0D /* STSearchBar.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		FFF65CD115CB485800F6EDB2 = {
+			isa = PBXGroup;
+			children = (
+				FFF65CE115CB485800F6EDB2 /* SwiftypeTouch */,
+				FFF65CDE15CB485800F6EDB2 /* Frameworks */,
+				FFF65CDD15CB485800F6EDB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFF65CDD15CB485800F6EDB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFF65CDC15CB485800F6EDB2 /* libSwiftypeTouch.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFF65CDE15CB485800F6EDB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFF65D1415CB4B1900F6EDB2 /* CoreGraphics.framework */,
+				FFF65D1215CB4B1400F6EDB2 /* UIKit.framework */,
+				FFF65CDF15CB485800F6EDB2 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFF65CE115CB485800F6EDB2 /* SwiftypeTouch */ = {
+			isa = PBXGroup;
+			children = (
+				FF14F05315CFA1A3003F4779 /* UI */,
+				FFF65CED15CB48A900F6EDB2 /* Categories */,
+				FFF65CF415CB48A900F6EDB2 /* STAPIClient.h */,
+				FFF65CF515CB48A900F6EDB2 /* STAPIClient.m */,
+				FFF65CF615CB48A900F6EDB2 /* STSearchResultsObject.h */,
+				FFF65CF715CB48A900F6EDB2 /* STSearchResultsObject.m */,
+				FFBA488C15CCA0C300E71185 /* STPagingSearchResultsObject.h */,
+				FFBA488D15CCA0C300E71185 /* STPagingSearchResultsObject.m */,
+				FF14F04F15CF8E53003F4779 /* STPageDocumentTypeResultsObject.h */,
+				FF14F05015CF8E53003F4779 /* STPageDocumentTypeResultsObject.m */,
+				FFF65CE215CB485800F6EDB2 /* Supporting Files */,
+			);
+			path = SwiftypeTouch;
+			sourceTree = "<group>";
+		};
+		FFF65CE215CB485800F6EDB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFF65CE315CB485800F6EDB2 /* SwiftypeTouch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFF65CED15CB48A900F6EDB2 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				FFF65CEE15CB48A900F6EDB2 /* NSDate+STUtils.h */,
+				FFF65CEF15CB48A900F6EDB2 /* NSDate+STUtils.m */,
+				FFF65CF015CB48A900F6EDB2 /* NSDictionary+STUtils.h */,
+				FFF65CF115CB48A900F6EDB2 /* NSDictionary+STUtils.m */,
+				FFF65CF215CB48A900F6EDB2 /* NSString+STUtils.h */,
+				FFF65CF315CB48A900F6EDB2 /* NSString+STUtils.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFF65CDB15CB485800F6EDB2 /* SwiftypeTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF65CEA15CB485800F6EDB2 /* Build configuration list for PBXNativeTarget "SwiftypeTouch" */;
+			buildPhases = (
+				FFF65CD815CB485800F6EDB2 /* Sources */,
+				FFF65CD915CB485800F6EDB2 /* Frameworks */,
+				FFF65CDA15CB485800F6EDB2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftypeTouch;
+			productName = SwiftypeTouch;
+			productReference = FFF65CDC15CB485800F6EDB2 /* libSwiftypeTouch.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFF65CD315CB485800F6EDB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Swiftype;
+			};
+			buildConfigurationList = FFF65CD615CB485800F6EDB2 /* Build configuration list for PBXProject "SwiftypeTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FFF65CD115CB485800F6EDB2;
+			productRefGroup = FFF65CDD15CB485800F6EDB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFF65CDB15CB485800F6EDB2 /* SwiftypeTouch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFF65CD815CB485800F6EDB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF65CF815CB48A900F6EDB2 /* NSDate+STUtils.m in Sources */,
+				FFF65CF915CB48A900F6EDB2 /* NSDictionary+STUtils.m in Sources */,
+				FFF65CFA15CB48A900F6EDB2 /* NSString+STUtils.m in Sources */,
+				FFF65CFB15CB48A900F6EDB2 /* STAPIClient.m in Sources */,
+				FFF65CFC15CB48A900F6EDB2 /* STSearchResultsObject.m in Sources */,
+				FFBA488E15CCA0C300E71185 /* STPagingSearchResultsObject.m in Sources */,
+				FF14F05115CF8E53003F4779 /* STPageDocumentTypeResultsObject.m in Sources */,
+				FF14F05615CFA1D1003F4779 /* STWebViewController.m in Sources */,
+				FF4357D615D02CF500B61C0D /* STSearchBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FFF65CE815CB485800F6EDB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FFF65CE915CB485800F6EDB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFF65CEB15CB485800F6EDB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SwiftypeTouch.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwiftypeTouch/SwiftypeTouch-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FFF65CEC15CB485800F6EDB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SwiftypeTouch.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwiftypeTouch/SwiftypeTouch-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFF65CD615CB485800F6EDB2 /* Build configuration list for PBXProject "SwiftypeTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF65CE815CB485800F6EDB2 /* Debug */,
+				FFF65CE915CB485800F6EDB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF65CEA15CB485800F6EDB2 /* Build configuration list for PBXNativeTarget "SwiftypeTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF65CEB15CB485800F6EDB2 /* Debug */,
+				FFF65CEC15CB485800F6EDB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFF65CD315CB485800F6EDB2 /* Project object */;
+}
