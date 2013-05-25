@@ -36,6 +36,7 @@
    * `searchResultsDelegate` for `UISearchDisplayController`
      * `tableView:didSelectRowAtIndexPath:` - Opens up a web page of the result
 
+ NOTE: You may wish to use STCommonDocumentTypeResultsObject instead, as it is more generic.
  */
 @interface STPageDocumentTypeResultsObject : STPagingSearchResultsObject
 

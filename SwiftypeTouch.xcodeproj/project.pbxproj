@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F943FA69175026F400583F0D /* STCommonDocumentTypeResultsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F943FA68175026F400583F0D /* STCommonDocumentTypeResultsObject.m */; };
 		FF14F05115CF8E53003F4779 /* STPageDocumentTypeResultsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FF14F05015CF8E53003F4779 /* STPageDocumentTypeResultsObject.m */; };
 		FF14F05615CFA1D1003F4779 /* STWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF14F05515CFA1D1003F4779 /* STWebViewController.m */; };
 		FF4357D615D02CF500B61C0D /* STSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4357D515D02CF500B61C0D /* STSearchBar.m */; };
@@ -34,6 +35,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F943FA67175026F400583F0D /* STCommonDocumentTypeResultsObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCommonDocumentTypeResultsObject.h; sourceTree = "<group>"; };
+		F943FA68175026F400583F0D /* STCommonDocumentTypeResultsObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCommonDocumentTypeResultsObject.m; sourceTree = "<group>"; };
 		FF14F04F15CF8E53003F4779 /* STPageDocumentTypeResultsObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPageDocumentTypeResultsObject.h; sourceTree = "<group>"; };
 		FF14F05015CF8E53003F4779 /* STPageDocumentTypeResultsObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPageDocumentTypeResultsObject.m; sourceTree = "<group>"; };
 		FF14F05415CFA1D1003F4779 /* STWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STWebViewController.h; sourceTree = "<group>"; };
@@ -125,6 +128,8 @@
 				FF14F04F15CF8E53003F4779 /* STPageDocumentTypeResultsObject.h */,
 				FF14F05015CF8E53003F4779 /* STPageDocumentTypeResultsObject.m */,
 				FFF65CE215CB485800F6EDB2 /* Supporting Files */,
+				F943FA67175026F400583F0D /* STCommonDocumentTypeResultsObject.h */,
+				F943FA68175026F400583F0D /* STCommonDocumentTypeResultsObject.m */,
 			);
 			path = SwiftypeTouch;
 			sourceTree = "<group>";
@@ -210,6 +215,7 @@
 				FF14F05115CF8E53003F4779 /* STPageDocumentTypeResultsObject.m in Sources */,
 				FF14F05615CFA1D1003F4779 /* STWebViewController.m in Sources */,
 				FF4357D615D02CF500B61C0D /* STSearchBar.m in Sources */,
+				F943FA69175026F400583F0D /* STCommonDocumentTypeResultsObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
