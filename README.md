@@ -2,7 +2,7 @@
 
 SwiftypeTouch is a library that makes it easy to add [Swiftype-powered Site Search](http://swiftype.com/) to your iOS application.
 
-> **Note:** This client has been developed for [Swiftype's Site Search](https://www.swiftype.com/site-search) API endpoints only. You may refer to the [Swiftype Site Search API Documentation](https://swiftype.com/documentation/site-search/overview) for additional context.
+> **Note:** This client has been developed for the [Swiftype Site Search](https://www.swiftype.com/site-search) API endpoints only. You may refer to the [Swiftype Site Search API Documentation](https://swiftype.com/documentation/site-search/overview) for additional context.
 
 ## Installing SwiftypeTouch
 
