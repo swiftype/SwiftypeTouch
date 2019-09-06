@@ -1,5 +1,9 @@
 <p align="center"><img src="https://github.com/swiftype/SwiftypeTouch/blob/master/logo-site-search.png?raw=true" alt="Elastic Site Search Logo"></p>
 
+> **⚠️ This repository is deprecated ⚠️**
+>
+> **We are no longer maintaining an iOS library for Site Search. However, you can still build excellent native and mobile web experiences with [Site Search APIs and clients](https://swiftype.com/mobile-search). Thank you! - Elastic**
+
 > A first-party iOS library to add [Elastic Site Search](https://swiftype.com/documentation/site-search/overview) to iOS applications.
 
 ## Contents
